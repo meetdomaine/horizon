@@ -1,4 +1,20 @@
 # Horizon
+> [!IMPORTANT]
+> This repository is **Domaine's** fork of [Shopify/horizon](https://github.com/Shopify/horizon).  
+> While there may be occasional updates, changes should be kept **as minimal and concise as possible** to maintain alignment with the upstream project.
+
+## Keeping `main` Up to Date
+
+To verify that `main` is in sync with `Shopify/horizon`:
+
+1. Click **"Sync fork"** at the top of this page  
+   _OR_  
+2. Compare the **numbered release** in this repo with the release number in [Shopify's repo](https://github.com/Shopify/horizon).
+
+If the release numbers don’t match exactly, this fork is likely out of date.  
+Once upstream changes are pulled in, update the release numbers here to match.
+
+---
 
 [Getting started](#getting-started) |
 [Staying up to date with Horizon changes](#staying-up-to-date-with-horizon-changes) |
