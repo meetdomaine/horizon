@@ -1,0 +1,21 @@
+name: Theme Check
+
+on:
+  workflow_dispatch:
+  pull_request:
+    types: [opened, reopened, synchronize, edited]
+    branches:
+      - develop
+
+jobs:
+  theme-check:
+      name: Theme Check
+      runs-on: ubuntu-latest
+      steps:
+        - uses: actions/checkout@v4
+        - name: Theme Check
+          uses: shopify/theme-check-action@v2
+          with:
+            version: 3.84.0
+            token: ${{ github.token }}
+            base: develop
